@@ -10,7 +10,7 @@ export const AllProducts = styled.section`
     width: 938px;    
 
 `
-export const EachProduct = styled.div`
+export const EachProductS = styled.div`
     height: 285px;
     width: 217.5617218017578px;
     border-radius: 8px;
