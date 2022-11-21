@@ -13,7 +13,7 @@ const Products = () => {
         <AllProducts>
             {loading && <p>carregando</p>}
         {data && data.map((product) => (
-            <EachProduct key={product.id} product={product} loading={loading} />
+            <EachProduct key={product.id} product={product} />
                 
             
 
