@@ -1,8 +1,7 @@
-import Header from './components/header'
+import Header from './components/header/header'
+import Footer from './components/footer/footer'
 
 import { GlobalStyle } from './globalStyle/GlobalStyle'
-
-
 
 import { useFetch } from './hook/useFetch'
 
@@ -18,6 +17,8 @@ function App() {
       <GlobalStyle/>
       
       <Header/>
+      
+      <Footer/>
       
     </div>
   )
