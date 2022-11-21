@@ -1,5 +1,8 @@
 import { HeaderS } from "./styleHeader"
 
+import { TiShoppingCart } from 'react-icons/ti';
+
+
 const Header = () => {
   return (
     <HeaderS>
@@ -9,7 +12,10 @@ const Header = () => {
           <h2>Sistemas</h2>
         </div>
         <div className="cart">
-
+          <div className="icon">
+            <TiShoppingCart/>
+          </div>
+          <p>0</p>
         </div>
       </div>
       

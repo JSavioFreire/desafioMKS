@@ -37,5 +37,18 @@ export const HeaderS = styled.header`
         height: 45px;
         background-color: white;
         border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .icon svg{
+        height: 18px;
+        width: 19.007722854614258px;
+    }
+    .cart p{
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 4px;
     }
 `
